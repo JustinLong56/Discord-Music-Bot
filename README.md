@@ -2,7 +2,7 @@
 Allows user to play music on discord. Just add your own Discord bot Token to use
 This bot is "for private use" or "just for fun" since Youtube is cracking down music bots like these that are published for public server uses
 
-USER WILL NEED TO INSTALL ALL IMPORTS SHOWN
+USER WILL NEED TO INSTALL ALL IMPORTS SHOWN AND FFMPEG DOWNLOADED AND MADE INTO A PATH ENVIORNMENT
 
 Note: 
 1. Will only work as long the bot is running
