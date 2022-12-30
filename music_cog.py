@@ -130,7 +130,7 @@ class music_cog(commands.Cog):
             await self.play_music(ctx)
 
 
-
+    #Command to see queued songs
     @commands.command(name="q", help="Displays the current songs in queue")
     async def queue(self, ctx):
         retval = ""
@@ -143,6 +143,7 @@ class music_cog(commands.Cog):
         else:
             await ctx.send("No music in queue")
 
+    #command to clear songs in queue
     @commands.command(name="c", help="Stops the music and clears the queue")
     async def clear(self, ctx):
         if self.vc != None and self.is_playing:
@@ -150,6 +151,7 @@ class music_cog(commands.Cog):
         self.music_queue = []
         await ctx.send("Music queue cleared")
 
+    #command to disconnect bot from vc
     @commands.command(name="d", help="Disconnects bot from VC")
     async def dc(self, ctx):
         self.playing = False
