@@ -8,7 +8,7 @@ from music_cog import music_cog
 
 
 #place your bot token here for the bot to read
-token = " "
+token = ""
 
 #command prefix for bot
 bot = commands.Bot(command_prefix='/', intents=discord.Intents.all())
